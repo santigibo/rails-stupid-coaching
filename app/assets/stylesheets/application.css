@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+.msg {
+  border-left: 8px solid lightgrey;
+  font-weight: lighter;
+  padding: 32px 16px;
+  margin-bottom: 8px;
+  margin-left: 32px;
+}
