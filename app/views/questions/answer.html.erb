@@ -1,11 +1,11 @@
 <div class="msg">
-  <h2> <%= @question.capitalize %> </h2>
-  <h3> <em>-You</em> </h3>
+  <h2> <%= @question %> </h2>
+  <h2> <em>   -You</em> </h2>
 </div>
 
-<div class="msg">
-  <h2> <%= @answer %> </h2>
-  <h3> <em>-Your coach</em> </h3>
+<div class="msg coach">
+  <h2> <strong><%= @answer %></strong> </h2>
+  <h2> <em>   -Your coach</em> </h2>
 </div>
 
 <%= link_to "Ask another question", ask_path %>
